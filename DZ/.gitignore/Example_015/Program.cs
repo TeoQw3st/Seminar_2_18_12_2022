@@ -10,8 +10,8 @@
     if (number3 == 7) day = "Воскресенье";
        
    
-    if (number3 > 7){
-      Console.WriteLine("Вы ввели число больше 7");
+    if (number3 > 7 || number3 < 1){
+      Console.WriteLine("Неверный день недели");
     }
     else if (number3 >5 & number3 < 8)
     {
